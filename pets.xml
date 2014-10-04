@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: 4144
+Copyright (C) 2014 Evol Online -->
+<pets>
+    <pet id="1002">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1113">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1031">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1063">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1049">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1011">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1042">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1035">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1167">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1107">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1052">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1014">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1077">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1019">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1056">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1057">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1023">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1026">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1110">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1170">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1029">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1155">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1109">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1101">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1188">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1200">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1275">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1815">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1245">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1519">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1879">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1122">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1123">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1125">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1385">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1382">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1208">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1963">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1040">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1143">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1148">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1179">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1299">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1370">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1374">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1379">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1401">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1404">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1416">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1495">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1504">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1505">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1513">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1586">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1630">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="1837">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="2057">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+    <pet id="2081">
+        <sprite>monsters/tortuga.xml</sprite>
+    </pet>
+
+</pets>

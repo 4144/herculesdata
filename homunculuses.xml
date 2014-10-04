@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: 4144
+Copyright (C) 2014 Evol Online -->
+<homunculuses>
+    <homunculus id="6001">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6002">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6003">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6004">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6005">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6006">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6007">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6008">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6048">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6049">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6050">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6051">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+    <homunculus id="6052">
+        <sprite>monsters/tortuga.xml</sprite>
+    </homunculus>
+
+</homunculuses>

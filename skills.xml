@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: 4144
+Copyright (C) 2014 Evol Online -->
+<skills>
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+        <its:translateRule selector="//set/@name" translate="yes"/>
+        <its:translateRule selector="//set/skill/@name" translate="yes"/>
+        <its:translateRule selector="//set/skill/@description" translate="yes"/>
+        <its:translateRule selector="//*" translate="no"/>
+    </its:rules>
+
+    <set name="Basic">
+        <skill id="1" name="NV_BASIC" description="Basic Skill"/>
+        <skill id="2" name="SM_SWORD" description="Sword Mastery"/>
+        <skill id="3" name="SM_TWOHAND" description="Two-Handed Sword Mastery"/>
+        <skill id="4" name="SM_RECOVERY" description="Increase HP Recovery"/>
+        <skill id="5" name="SM_BASH" description="Bash"/>
+        <skill id="6" name="SM_PROVOKE" description="Provoke"/>
+        <skill id="7" name="SM_MAGNUM" description="Magnum Break"/>
+        <skill id="8" name="SM_ENDURE" description="Endure"/>
+        <skill id="9" name="MG_SRECOVERY" description="Increase SP Recovery"/>
+        <skill id="10" name="MG_SIGHT" description="Sight"/>
+        <skill id="11" name="MG_NAPALMBEAT" description="Napalm Beat"/>
+        <skill id="12" name="MG_SAFETYWALL" description="Safety Wall"/>
+        <skill id="13" name="MG_SOULSTRIKE" description="Soul Strike"/>
+        <skill id="14" name="MG_COLDBOLT" description="Cold Bolt"/>
+        <skill id="15" name="MG_FROSTDIVER" description="Frost Diver"/>
+        <skill id="16" name="MG_STONECURSE" description="Stone Curse"/>
+        <skill id="17" name="MG_FIREBALL" description="Fire Ball"/>
+        <skill id="18" name="MG_FIREWALL" description="Fire Wall"/>
+        <skill id="19" name="MG_FIREBOLT" description="Fire Bolt"/>
+        <skill id="20" name="MG_LIGHTNINGBOLT" description="Lightning Bolt"/>
+        <skill id="21" name="MG_THUNDERSTORM" description="Thunderstorm"/>
+        <skill id="22" name="AL_DP" description="Divine Protection"/>
+        <skill id="23" name="AL_DEMONBANE" description="Demon Bane"/>
+        <skill id="24" name="AL_RUWACH" description="Ruwach"/>
+        <skill id="25" name="AL_PNEUMA" description="Pneuma"/>
+        <skill id="26" name="AL_TELEPORT" description="Teleport"/>
+        <skill id="27" name="AL_WARP" description="Warp Portal"/>
+        <skill id="28" name="AL_HEAL" description="Heal"/>
+        <skill id="29" name="AL_INCAGI" description="Increase AGI"/>
+        <skill id="30" name="AL_DECAGI" description="Decrease AGI"/>
+        <skill id="31" name="AL_HOLYWATER" description="Aqua Benedicta"/>
+        <skill id="32" name="AL_CRUCIS" description="Signum Crucis"/>
+        <skill id="33" name="AL_ANGELUS" description="Angelus"/>
+        <skill id="34" name="AL_BLESSING" description="Blessing"/>
+        <skill id="35" name="AL_CURE" description="Cure"/>
+        <skill id="36" name="MC_INCCARRY" description="Enlarge Weight Limit"/>
+        <skill id="37" name="MC_DISCOUNT" description="Discount"/>
+        <skill id="38" name="MC_OVERCHARGE" description="Overcharge"/>
+        <skill id="39" name="MC_PUSHCART" description="Pushcart"/>
+        <skill id="40" name="MC_IDENTIFY" description="Item Appraisal"/>
+        <skill id="41" name="MC_VENDING" description="Vending"/>
+        <skill id="42" name="MC_MAMMONITE" description="Mammonite"/>
+        <skill id="43" name="AC_OWL" description="Owl's Eye"/>
+        <skill id="44" name="AC_VULTURE" description="Vulture's Eye"/>
+        <skill id="45" name="AC_CONCENTRATION" description="Improve Concentration"/>
+        <skill id="46" name="AC_DOUBLE" description="Double Strafe"/>
+        <skill id="47" name="AC_SHOWER" description="Arrow Shower"/>
+        <skill id="48" name="TF_DOUBLE" description="Double Attack"/>
+        <skill id="49" name="TF_MISS" description="Improve Dodge"/>
+        <skill id="50" name="TF_STEAL" description="Steal"/>
+        <skill id="51" name="TF_HIDING" description="Hiding"/>
+        <skill id="52" name="TF_POISON" description="Envenom"/>
+        <skill id="53" name="TF_DETOXIFY" description="Detoxify"/>
+        <skill id="54" name="ALL_RESURRECTION" description="Resurrection"/>
+        <skill id="55" name="KN_SPEARMASTERY" description="Spear Mastery"/>
+        <skill id="56" name="KN_PIERCE" description="Pierce"/>
+        <skill id="57" name="KN_BRANDISHSPEAR" description="Brandish Spear"/>
+        <skill id="58" name="KN_SPEARSTAB" description="Spear Stab"/>
+        <skill id="59" name="KN_SPEARBOOMERANG" description="Spear Boomerang"/>
+        <skill id="60" name="KN_TWOHANDQUICKEN" description="Twohand Quicken"/>
+        <skill id="61" name="KN_AUTOCOUNTER" description="Counter Attack"/>
+        <skill id="62" name="KN_BOWLINGBASH" description="Bowling Bash"/>
+        <skill id="63" name="KN_RIDING" description="Peco Peco Riding"/>
+        <skill id="64" name="KN_CAVALIERMASTERY" description="Cavalier Mastery"/>
+        <skill id="65" name="PR_MACEMASTERY" description="Mace Mastery"/>
+        <skill id="66" name="PR_IMPOSITIO" description="Impositio Manus"/>
+        <skill id="67" name="PR_SUFFRAGIUM" description="Suffragium"/>
+        <skill id="68" name="PR_ASPERSIO" description="Aspersio"/>
+        <skill id="69" name="PR_BENEDICTIO" description="B.S. Sacramenti"/>
+        <skill id="70" name="PR_SANCTUARY" description="Sanctuary"/>
+        <skill id="71" name="PR_SLOWPOISON" description="Slow Poison"/>
+        <skill id="72" name="PR_STRECOVERY" description="Status Recovery"/>
+        <skill id="73" name="PR_KYRIE" description="Kyrie Eleison"/>
+        <skill id="74" name="PR_MAGNIFICAT" description="Magnificat"/>
+        <skill id="75" name="PR_GLORIA" description="Gloria"/>
+        <skill id="76" name="PR_LEXDIVINA" description="Lex Divina"/>
+        <skill id="77" name="PR_TURNUNDEAD" description="Turn Undead"/>
+        <skill id="78" name="PR_LEXAETERNA" description="Lex Aeterna"/>
+        <skill id="79" name="PR_MAGNUS" description="Magnus Exorcismus"/>
+        <skill id="80" name="WZ_FIREPILLAR" description="Fire Pillar"/>
+        <skill id="81" name="WZ_SIGHTRASHER" description="Sightrasher"/>
+        <skill id="83" name="WZ_METEOR" description="Meteor Storm"/>
+        <skill id="84" name="WZ_JUPITEL" description="Jupitel Thunder"/>
+        <skill id="85" name="WZ_VERMILION" description="Lord of Vermilion"/>
+        <skill id="86" name="WZ_WATERBALL" description="Water Ball"/>
+        <skill id="87" name="WZ_ICEWALL" description="Ice Wall"/>
+        <skill id="88" name="WZ_FROSTNOVA" description="Frost Nova"/>
+        <skill id="89" name="WZ_STORMGUST" description="Storm Gust"/>
+        <skill id="90" name="WZ_EARTHSPIKE" description="Earth Spike"/>
+        <skill id="91" name="WZ_HEAVENDRIVE" description="Heaven's Drive"/>
+        <skill id="92" name="WZ_QUAGMIRE" description="Quagmire"/>
+        <skill id="93" name="WZ_ESTIMATION" description="Sense"/>
+        <skill id="94" name="BS_IRON" description="Iron Tempering"/>
+        <skill id="95" name="BS_STEEL" description="Steel Tempering"/>
+        <skill id="96" name="BS_ENCHANTEDSTONE" description="Enchanted Stone Craft"/>
+        <skill id="97" name="BS_ORIDEOCON" description="Oridecon Research"/>
+        <skill id="98" name="BS_DAGGER" description="Smith Dagger"/>
+        <skill id="99" name="BS_SWORD" description="Smith Sword"/>
+        <skill id="100" name="BS_TWOHANDSWORD" description="Smith Two-handed Sword"/>
+        <skill id="101" name="BS_AXE" description="Smith Axe"/>
+        <skill id="102" name="BS_MACE" description="Smith Mace"/>
+        <skill id="103" name="BS_KNUCKLE" description="Smith Knucklebrace"/>
+        <skill id="104" name="BS_SPEAR" description="Smith Spear"/>
+        <skill id="105" name="BS_HILTBINDING" description="Hilt Binding"/>
+        <skill id="106" name="BS_FINDINGORE" description="Ore Discovery"/>
+        <skill id="107" name="BS_WEAPONRESEARCH" description="Weaponry Research"/>
+        <skill id="108" name="BS_REPAIRWEAPON" description="Weapon Repair"/>
+        <skill id="109" name="BS_SKINTEMPER" description="Skin Tempering"/>
+        <skill id="110" name="BS_HAMMERFALL" description="Hammer Fall"/>
+        <skill id="111" name="BS_ADRENALINE" description="Adrenaline Rush"/>
+        <skill id="112" name="BS_WEAPONPERFECT" description="Weapon Perfection"/>
+        <skill id="113" name="BS_OVERTHRUST" description="Power-Thrust"/>
+        <skill id="114" name="BS_MAXIMIZE" description="Maximize Power"/>
+        <skill id="115" name="HT_SKIDTRAP" description="Skid Trap"/>
+        <skill id="116" name="HT_LANDMINE" description="Land Mine"/>
+        <skill id="117" name="HT_ANKLESNARE" description="Ankle Snare"/>
+        <skill id="118" name="HT_SHOCKWAVE" description="Shockwave Trap"/>
+        <skill id="119" name="HT_SANDMAN" description="Sandman"/>
+        <skill id="120" name="HT_FLASHER" description="Flasher"/>
+        <skill id="121" name="HT_FREEZINGTRAP" description="Freezing Trap"/>
+        <skill id="122" name="HT_BLASTMINE" description="Blast Mine"/>
+        <skill id="123" name="HT_CLAYMORETRAP" description="Claymore Trap"/>
+        <skill id="124" name="HT_REMOVETRAP" description="Remove Trap"/>
+        <skill id="125" name="HT_TALKIEBOX" description="Talkie Box"/>
+        <skill id="126" name="HT_BEASTBANE" description="Beast Bane"/>
+        <skill id="127" name="HT_FALCON" description="Falconry Mastery"/>
+        <skill id="128" name="HT_STEELCROW" description="Steel Crow"/>
+        <skill id="129" name="HT_BLITZBEAT" description="Blitz Beat"/>
+        <skill id="130" name="HT_DETECTING" description="Detect"/>
+        <skill id="131" name="HT_SPRINGTRAP" description="Spring Trap"/>
+        <skill id="132" name="AS_RIGHT" description="Righthand Mastery"/>
+        <skill id="133" name="AS_LEFT" description="Lefthand Mastery"/>
+        <skill id="134" name="AS_KATAR" description="Katar Mastery"/>
+        <skill id="135" name="AS_CLOAKING" description="Cloaking"/>
+        <skill id="136" name="AS_SONICBLOW" description="Sonic Blow"/>
+        <skill id="137" name="AS_GRIMTOOTH" description="Grimtooth"/>
+        <skill id="138" name="AS_ENCHANTPOISON" description="Enchant Poison"/>
+        <skill id="139" name="AS_POISONREACT" description="Poison React"/>
+        <skill id="140" name="AS_VENOMDUST" description="Venom Dust"/>
+        <skill id="141" name="AS_SPLASHER" description="Venom Splasher"/>
+        <skill id="142" name="NV_FIRSTAID" description="First Aid"/>
+        <skill id="143" name="NV_TRICKDEAD" description="Play Dead"/>
+        <skill id="144" name="SM_MOVINGRECOVERY" description="Moving HP-Recovery"/>
+        <skill id="145" name="SM_FATALBLOW" description="Fatal Blow"/>
+        <skill id="146" name="SM_AUTOBERSERK" description="Auto Berserk"/>
+        <skill id="147" name="AC_MAKINGARROW" description="Arrow Crafting"/>
+        <skill id="148" name="AC_CHARGEARROW" description="Arrow Repel"/>
+        <skill id="149" name="TF_SPRINKLESAND" description="Sand Attack"/>
+        <skill id="150" name="TF_BACKSLIDING" description="Back Slide"/>
+        <skill id="151" name="TF_PICKSTONE" description="Find Stone"/>
+        <skill id="152" name="TF_THROWSTONE" description="Stone Fling"/>
+        <skill id="153" name="MC_CARTREVOLUTION" description="Cart Revolution"/>
+        <skill id="154" name="MC_CHANGECART" description="Change Cart"/>
+        <skill id="155" name="MC_LOUD" description="Crazy Uproar"/>
+        <skill id="156" name="AL_HOLYLIGHT" description="Holy Light"/>
+        <skill id="157" name="MG_ENERGYCOAT" description="Energy Coat"/>
+        <skill id="158" name="NPC_PIERCINGATT" description="Piercing Attack"/>
+        <skill id="159" name="NPC_MENTALBREAKER" description="Spirit Destruction"/>
+        <skill id="160" name="NPC_RANGEATTACK" description="Stand off attack"/>
+        <skill id="161" name="NPC_ATTRICHANGE" description="Attribute Change"/>
+        <skill id="162" name="NPC_CHANGEWATER" description="Water Attribute Change"/>
+        <skill id="163" name="NPC_CHANGEGROUND" description="Earth Attribute Change"/>
+        <skill id="164" name="NPC_CHANGEFIRE" description="Fire Attribute Change"/>
+        <skill id="165" name="NPC_CHANGEWIND" description="Wind Attribute Change"/>
+        <skill id="166" name="NPC_CHANGEPOISON" description="Poison Attribute Change"/>
+        <skill id="167" name="NPC_CHANGEHOLY" description="Holy Attribute Change"/>
+        <skill id="168" name="NPC_CHANGEDARKNESS" description="Shadow Attribute Change"/>
+        <skill id="169" name="NPC_CHANGETELEKINESIS" description="Ghost Attribute Change"/>
+        <skill id="170" name="NPC_CRITICALSLASH" description="Defense disregard attack"/>
+        <skill id="171" name="NPC_COMBOATTACK" description="Multi-stage Attack"/>
+        <skill id="172" name="NPC_GUIDEDATTACK" description="Guided Attack"/>
+        <skill id="173" name="NPC_SELFDESTRUCTION" description="Suicide bombing"/>
+        <skill id="174" name="NPC_SPLASHATTACK" description="Splash attack"/>
+        <skill id="175" name="NPC_SUICIDE" description="Suicide"/>
+        <skill id="176" name="NPC_POISON" description="Poison Attack"/>
+        <skill id="177" name="NPC_BLINDATTACK" description="Blind Attack"/>
+        <skill id="178" name="NPC_SILENCEATTACK" description="Silence Attack"/>
+        <skill id="179" name="NPC_STUNATTACK" description="Stun Attack"/>
+        <skill id="180" name="NPC_PETRIFYATTACK" description="Petrify Attack"/>
+        <skill id="181" name="NPC_CURSEATTACK" description="Curse Attack"/>
+        <skill id="182" name="NPC_SLEEPATTACK" description="Sleep attack"/>
+        <skill id="183" name="NPC_RANDOMATTACK" description="Random Attack"/>
+        <skill id="184" name="NPC_WATERATTACK" description="Water Attribute Attack"/>
+        <skill id="185" name="NPC_GROUNDATTACK" description="Earth Attribute Attack"/>
+        <skill id="186" name="NPC_FIREATTACK" description="Fire Attribute Attack"/>
+        <skill id="187" name="NPC_WINDATTACK" description="Wind Attribute Attack"/>
+        <skill id="188" name="NPC_POISONATTACK" description="Poison Attribute Attack"/>
+        <skill id="189" name="NPC_HOLYATTACK" description="Holy Attribute Attack"/>
+        <skill id="190" name="NPC_DARKNESSATTACK" description="Shadow Attribute Attack"/>
+        <skill id="191" name="NPC_TELEKINESISATTACK" description="Ghost Attribute Attack"/>
+        <skill id="192" name="NPC_MAGICALATTACK" description="Demon Shock Attack"/>
+        <skill id="193" name="NPC_METAMORPHOSIS" description="Metamorphosis"/>
+        <skill id="194" name="NPC_PROVOCATION" description="Provocation"/>
+        <skill id="195" name="NPC_SMOKING" description="Smoking"/>
+        <skill id="196" name="NPC_SUMMONSLAVE" description="Follower Summons"/>
+        <skill id="197" name="NPC_EMOTION" description="Emotion"/>
+        <skill id="198" name="NPC_TRANSFORMATION" description="Transformation"/>
+        <skill id="199" name="NPC_BLOODDRAIN" description="Sucking Blood"/>
+        <skill id="200" name="NPC_ENERGYDRAIN" description="Energy Drain"/>
+        <skill id="201" name="NPC_KEEPING" description="Keeping"/>
+        <skill id="202" name="NPC_DARKBREATH" description="Dark Breath"/>
+        <skill id="203" name="NPC_DARKBLESSING" description="Dark Blessing"/>
+        <skill id="204" name="NPC_BARRIER" description="Barrier"/>
+        <skill id="205" name="NPC_DEFENDER" description="Defender"/>
+        <skill id="206" name="NPC_LICK" description="Lick"/>
+        <skill id="207" name="NPC_HALLUCINATION" description="Hallucination"/>
+        <skill id="208" name="NPC_REBIRTH" description="Rebirth"/>
+        <skill id="209" name="NPC_SUMMONMONSTER" description="Monster Summons"/>
+        <skill id="210" name="RG_SNATCHER" description="Gank"/>
+        <skill id="211" name="RG_STEALCOIN" description="Mug"/>
+        <skill id="212" name="RG_BACKSTAP" description="Back Stab"/>
+        <skill id="213" name="RG_TUNNELDRIVE" description="Stalk"/>
+        <skill id="214" name="RG_RAID" description="Sightless Mind"/>
+        <skill id="215" name="RG_STRIPWEAPON" description="Divest Weapon"/>
+        <skill id="216" name="RG_STRIPSHIELD" description="Divest Shield"/>
+        <skill id="217" name="RG_STRIPARMOR" description="Divest Armor"/>
+        <skill id="218" name="RG_STRIPHELM" description="Divest Helm"/>
+        <skill id="219" name="RG_INTIMIDATE" description="Snatch"/>
+        <skill id="220" name="RG_GRAFFITI" description="Scribble"/>
+        <skill id="221" name="RG_FLAGGRAFFITI" description="Piece"/>
+        <skill id="222" name="RG_CLEANER" description="Remover"/>
+        <skill id="223" name="RG_GANGSTER" description="Slyness"/>
+        <skill id="224" name="RG_COMPULSION" description="Haggle"/>
+        <skill id="225" name="RG_PLAGIARISM" description="Intimidate"/>
+        <skill id="226" name="AM_AXEMASTERY" description="Axe Mastery"/>
+        <skill id="227" name="AM_LEARNINGPOTION" description="Potion Research"/>
+        <skill id="228" name="AM_PHARMACY" description="Prepare Potion"/>
+        <skill id="229" name="AM_DEMONSTRATION" description="Bomb"/>
+        <skill id="230" name="AM_ACIDTERROR" description="Acid Terror"/>
+        <skill id="231" name="AM_POTIONPITCHER" description="Aid Potion"/>
+        <skill id="232" name="AM_CANNIBALIZE" description="Summon Flora"/>
+        <skill id="233" name="AM_SPHEREMINE" description="Summon Marine Sphere"/>
+        <skill id="234" name="AM_CP_WEAPON" description="Alchemical Weapon"/>
+        <skill id="235" name="AM_CP_SHIELD" description="Synthesized Shield"/>
+        <skill id="236" name="AM_CP_ARMOR" description="Synthetic Armor"/>
+        <skill id="237" name="AM_CP_HELM" description="Biochemical Helm"/>
+        <skill id="238" name="AM_BIOETHICS" description="Bioethics"/>
+        <skill id="243" name="AM_CALLHOMUN" description="Call Homunculus"/>
+        <skill id="244" name="AM_REST" description="Vaporize"/>
+        <skill id="247" name="AM_RESURRECTHOMUN" description="Homunculus Resurrection"/>
+        <skill id="248" name="CR_TRUST" description="Faith"/>
+        <skill id="249" name="CR_AUTOGUARD" description="Guard"/>
+        <skill id="250" name="CR_SHIELDCHARGE" description="Smite"/>
+        <skill id="251" name="CR_SHIELDBOOMERANG" description="Shield Boomerang"/>
+        <skill id="252" name="CR_REFLECTSHIELD" description="Shield Reflect"/>
+        <skill id="253" name="CR_HOLYCROSS" description="Holy Cross"/>
+        <skill id="254" name="CR_GRANDCROSS" description="Grand Cross"/>
+        <skill id="255" name="CR_DEVOTION" description="Sacrifice"/>
+        <skill id="256" name="CR_PROVIDENCE" description="Resistant Souls"/>
+        <skill id="257" name="CR_DEFENDER" description="Defending Aura"/>
+        <skill id="258" name="CR_SPEARQUICKEN" description="Spear Quicken"/>
+        <skill id="259" name="MO_IRONHAND" description="Iron Fists"/>
+        <skill id="260" name="MO_SPIRITSRECOVERY" description="Spiritual Cadence"/>
+        <skill id="261" name="MO_CALLSPIRITS" description="Summon Spirit Sphere"/>
+        <skill id="262" name="MO_ABSORBSPIRITS" description="Absorb Spirit Sphere"/>
+        <skill id="263" name="MO_TRIPLEATTACK" description="Raging Trifecta Blow"/>
+        <skill id="264" name="MO_BODYRELOCATION" description="Snap"/>
+        <skill id="265" name="MO_DODGE" description="Dodge"/>
+        <skill id="266" name="MO_INVESTIGATE" description="Occult Impaction"/>
+        <skill id="267" name="MO_FINGEROFFENSIVE" description="Throw Spirit Sphere"/>
+        <skill id="268" name="MO_STEELBODY" description="Mental Strength"/>
+        <skill id="269" name="MO_BLADESTOP" description="Root"/>
+        <skill id="270" name="MO_EXPLOSIONSPIRITS" description="Fury"/>
+        <skill id="271" name="MO_EXTREMITYFIST" description="Asura Strike"/>
+        <skill id="272" name="MO_CHAINCOMBO" description="Raging Quadruple Blow"/>
+        <skill id="273" name="MO_COMBOFINISH" description="Raging Thrust"/>
+        <skill id="274" name="SA_ADVANCEDBOOK" description="Study"/>
+        <skill id="275" name="SA_CASTCANCEL" description="Cast Cancel"/>
+        <skill id="276" name="SA_MAGICROD" description="Magic Rod"/>
+        <skill id="277" name="SA_SPELLBREAKER" description="Spell Breaker"/>
+        <skill id="278" name="SA_FREECAST" description="Free Cast"/>
+        <skill id="279" name="SA_AUTOSPELL" description="Hindsight"/>
+        <skill id="280" name="SA_FLAMELAUNCHER" description="Endow Blaze"/>
+        <skill id="281" name="SA_FROSTWEAPON" description="Endow Tsunami"/>
+        <skill id="282" name="SA_LIGHTNINGLOADER" description="Endow Tornado"/>
+        <skill id="283" name="SA_SEISMICWEAPON" description="Endow Quake"/>
+        <skill id="284" name="SA_DRAGONOLOGY" description="Dragonology"/>
+        <skill id="285" name="SA_VOLCANO" description="Volcano"/>
+        <skill id="286" name="SA_DELUGE" description="Deluge"/>
+        <skill id="287" name="SA_VIOLENTGALE" description="Whirlwind"/>
+        <skill id="288" name="SA_LANDPROTECTOR" description="Magnetic Earth"/>
+        <skill id="289" name="SA_DISPELL" description="Dispell"/>
+        <skill id="290" name="SA_ABRACADABRA" description="Hocus-pocus"/>
+        <skill id="291" name="SA_MONOCELL" description="Monocell"/>
+        <skill id="292" name="SA_CLASSCHANGE" description="Class Change"/>
+        <skill id="293" name="SA_SUMMONMONSTER" description="Monster Chant"/>
+        <skill id="294" name="SA_REVERSEORCISH" description="Grampus Morph"/>
+        <skill id="295" name="SA_DEATH" description="Grim Reaper"/>
+        <skill id="296" name="SA_FORTUNE" description="Gold Digger"/>
+        <skill id="297" name="SA_TAMINGMONSTER" description="Beastly Hypnosis"/>
+        <skill id="298" name="SA_QUESTION" description="Questioning"/>
+        <skill id="299" name="SA_GRAVITY" description="Gravity"/>
+        <skill id="300" name="SA_LEVELUP" description="Leveling"/>
+        <skill id="301" name="SA_INSTANTDEATH" description="Suicide"/>
+        <skill id="302" name="SA_FULLRECOVERY" description="Rejuvenation"/>
+        <skill id="303" name="SA_COMA" description="Coma"/>
+        <skill id="304" name="BD_ADAPTATION" description="Amp"/>
+        <skill id="305" name="BD_ENCORE" description="Encore"/>
+        <skill id="306" name="BD_LULLABY" description="Lullaby"/>
+        <skill id="307" name="BD_RICHMANKIM" description="Mental Sensing"/>
+        <skill id="308" name="BD_ETERNALCHAOS" description="Down Tempo"/>
+        <skill id="309" name="BD_DRUMBATTLEFIELD" description="Battle Theme"/>
+        <skill id="310" name="BD_RINGNIBELUNGEN" description="Harmonic Lick"/>
+        <skill id="311" name="BD_ROKISWEIL" description="Classical Pluck"/>
+        <skill id="312" name="BD_INTOABYSS" description="Power Chord"/>
+        <skill id="313" name="BD_SIEGFRIED" description="Acoustic Rhythm"/>
+        <skill id="315" name="BA_MUSICALLESSON" description="Music Lessons"/>
+        <skill id="316" name="BA_MUSICALSTRIKE" description="Melody Strike"/>
+        <skill id="317" name="BA_DISSONANCE" description="Unchained Serenade"/>
+        <skill id="318" name="BA_FROSTJOKER" description="Unbarring Octave"/>
+        <skill id="319" name="BA_WHISTLE" description="Perfect Tablature"/>
+        <skill id="320" name="BA_ASSASSINCROSS" description="Impressive Riff"/>
+        <skill id="321" name="BA_POEMBRAGI" description="Magic Strings"/>
+        <skill id="322" name="BA_APPLEIDUN" description="Song of Lutie"/>
+        <skill id="323" name="DC_DANCINGLESSON" description="Dance Lessons"/>
+        <skill id="324" name="DC_THROWARROW" description="Slinging Arrow"/>
+        <skill id="325" name="DC_UGLYDANCE" description="Hip Shaker"/>
+        <skill id="326" name="DC_SCREAM" description="Dazzler"/>
+        <skill id="327" name="DC_HUMMING" description="Focus Ballet"/>
+        <skill id="328" name="DC_DONTFORGETME" description="Slow Grace"/>
+        <skill id="329" name="DC_FORTUNEKISS" description="Lady Luck"/>
+        <skill id="330" name="DC_SERVICEFORYOU" description="Gypsy's Kiss"/>
+        <skill id="331" name="NPC_RANDOMMOVE" description="Random Move"/>
+        <skill id="332" name="NPC_SPEEDUP" description="Speed UP"/>
+        <skill id="333" name="NPC_REVENGE" description="Revenge"/>
+        <skill id="334" name="WE_MALE" description="I Will Protect You"/>
+        <skill id="335" name="WE_FEMALE" description="I Look up to You"/>
+        <skill id="336" name="WE_CALLPARTNER" description="I miss You"/>
+        <skill id="337" name="ITM_TOMAHAWK" description="Throw Tomahawk"/>
+        <skill id="338" name="NPC_DARKCROSS" description="Cross of Darkness"/>
+        <skill id="339" name="NPC_GRANDDARKNESS" description="Grand cross of Darkness"/>
+        <skill id="340" name="NPC_DARKSTRIKE" description="Soul Strike of Darkness"/>
+        <skill id="341" name="NPC_DARKTHUNDER" description="Darkness Jupitel"/>
+        <skill id="342" name="NPC_STOP" description="Stop"/>
+        <skill id="343" name="NPC_WEAPONBRAKER" description="Break weapon"/>
+        <skill id="344" name="NPC_ARMORBRAKE" description="Break armor"/>
+        <skill id="345" name="NPC_HELMBRAKE" description="Break helm"/>
+        <skill id="346" name="NPC_SHIELDBRAKE" description="Break shield"/>
+        <skill id="347" name="NPC_UNDEADATTACK" description="Undead Element Attack"/>
+        <skill id="348" name="NPC_CHANGEUNDEAD" description="Undead Attribute Change"/>
+        <skill id="349" name="NPC_POWERUP" description="Power Up"/>
+        <skill id="350" name="NPC_AGIUP" description="Agility UP"/>
+        <skill id="351" name="NPC_SIEGEMODE" description="Siege Mode"/>
+        <skill id="352" name="NPC_CALLSLAVE" description="Recall Slaves"/>
+        <skill id="353" name="NPC_INVISIBLE" description="Invisible"/>
+        <skill id="354" name="NPC_RUN" description="Run"/>
+        <skill id="355" name="LK_AURABLADE" description="Aura Blade"/>
+        <skill id="356" name="LK_PARRYING" description="Parrying"/>
+        <skill id="357" name="LK_CONCENTRATION" description="Concentration"/>
+        <skill id="358" name="LK_TENSIONRELAX" description="Relax"/>
+        <skill id="359" name="LK_BERSERK" description="Frenzy"/>
+        <skill id="361" name="HP_ASSUMPTIO" description="Assumptio"/>
+        <skill id="362" name="HP_BASILICA" description="Basilica"/>
+        <skill id="363" name="HP_MEDITATIO" description="Meditatio"/>
+        <skill id="364" name="HW_SOULDRAIN" description="Soul Drain"/>
+        <skill id="365" name="HW_MAGICCRASHER" description="Stave Crasher"/>
+        <skill id="366" name="HW_MAGICPOWER" description="Mystical Amplification"/>
+        <skill id="367" name="PA_PRESSURE" description="Gloria Domini"/>
+        <skill id="368" name="PA_SACRIFICE" description="Martyr's Reckoning"/>
+        <skill id="369" name="PA_GOSPEL" description="Battle Chant"/>
+        <skill id="370" name="CH_PALMSTRIKE" description="Raging Palm Strike"/>
+        <skill id="371" name="CH_TIGERFIST" description="Glacier Fist"/>
+        <skill id="372" name="CH_CHAINCRUSH" description="Chain Crush Combo"/>
+        <skill id="373" name="PF_HPCONVERSION" description="Indulge"/>
+        <skill id="374" name="PF_SOULCHANGE" description="Soul Exhale"/>
+        <skill id="375" name="PF_SOULBURN" description="Soul Siphon"/>
+        <skill id="376" name="ASC_KATAR" description="Advanced Katar Mastery"/>
+        <skill id="378" name="ASC_EDP" description="Enchant Deadly Poison"/>
+        <skill id="379" name="ASC_BREAKER" description="Soul Destroyer"/>
+        <skill id="380" name="SN_SIGHT" description="Falcon Eyes"/>
+        <skill id="381" name="SN_FALCONASSAULT" description="Falcon Assault"/>
+        <skill id="382" name="SN_SHARPSHOOTING" description="Focused Arrow Strike"/>
+        <skill id="383" name="SN_WINDWALK" description="Wind Walker"/>
+        <skill id="384" name="WS_MELTDOWN" description="Shattering Strike"/>
+        <skill id="387" name="WS_CARTBOOST" description="Cart Boost"/>
+        <skill id="389" name="ST_CHASEWALK" description="Stealth"/>
+        <skill id="390" name="ST_REJECTSWORD" description="Counter Instinct"/>
+        <skill id="392" name="CR_ALCHEMY" description="Alchemy"/>
+        <skill id="393" name="CR_SYNTHESISPOTION" description="Potion Synthesis"/>
+        <skill id="394" name="CG_ARROWVULCAN" description="Vulcan Arrow"/>
+        <skill id="395" name="CG_MOONLIT" description="Sheltering Bliss"/>
+        <skill id="396" name="CG_MARIONETTE" description="Marionette Control"/>
+        <skill id="397" name="LK_SPIRALPIERCE" description="Spiral Pierce"/>
+        <skill id="398" name="LK_HEADCRUSH" description="Traumatic Blow"/>
+        <skill id="399" name="LK_JOINTBEAT" description="Vital Strike"/>
+        <skill id="400" name="HW_NAPALMVULCAN" description="Napalm Vulcan"/>
+        <skill id="401" name="CH_SOULCOLLECT" description="Zen"/>
+        <skill id="402" name="PF_MINDBREAKER" description="Mind Breaker"/>
+        <skill id="403" name="PF_MEMORIZE" description="Foresight"/>
+        <skill id="404" name="PF_FOGWALL" description="Blinding Mist"/>
+        <skill id="405" name="PF_SPIDERWEB" description="Fiber Lock"/>
+        <skill id="406" name="ASC_METEORASSAULT" description="Meteor Assault"/>
+        <skill id="407" name="ASC_CDP" description="Create Deadly Poison"/>
+        <skill id="408" name="WE_BABY" description="Baby"/>
+        <skill id="409" name="WE_CALLPARENT" description="Call Parent"/>
+        <skill id="410" name="WE_CALLBABY" description="Call Baby"/>
+        <skill id="411" name="TK_RUN" description="Running"/>
+        <skill id="412" name="TK_READYSTORM" description="Tornado Stance"/>
+        <skill id="413" name="TK_STORMKICK" description="Tornado Kick"/>
+        <skill id="414" name="TK_READYDOWN" description="Heel Drop Stance"/>
+        <skill id="415" name="TK_DOWNKICK" description="Heel Drop"/>
+        <skill id="416" name="TK_READYTURN" description="Roundhouse Stance"/>
+        <skill id="417" name="TK_TURNKICK" description="Roundhouse Kick"/>
+        <skill id="418" name="TK_READYCOUNTER" description="Counter Kick Stance"/>
+        <skill id="419" name="TK_COUNTER" description="Counter Kick"/>
+        <skill id="420" name="TK_DODGE" description="Tumbling"/>
+        <skill id="421" name="TK_JUMPKICK" description="Flying Kick"/>
+        <skill id="422" name="TK_HPTIME" description="Peaceful Break"/>
+        <skill id="423" name="TK_SPTIME" description="Happy Break"/>
+        <skill id="424" name="TK_POWER" description="Kihop"/>
+        <skill id="425" name="TK_SEVENWIND" description="Mild Wind"/>
+        <skill id="426" name="TK_HIGHJUMP" description="Taekwon Jump"/>
+        <skill id="427" name="SG_FEEL" description="Feeling the Sun Moon and Stars"/>
+        <skill id="428" name="SG_SUN_WARM" description="Warmth of the Sun"/>
+        <skill id="429" name="SG_MOON_WARM" description="Warmth of the Moon"/>
+        <skill id="430" name="SG_STAR_WARM" description="Warmth of the Stars"/>
+        <skill id="431" name="SG_SUN_COMFORT" description="Comfort of the Sun"/>
+        <skill id="432" name="SG_MOON_COMFORT" description="Comfort of the Moon"/>
+        <skill id="433" name="SG_STAR_COMFORT" description="Comfort of the Stars"/>
+        <skill id="434" name="SG_HATE" description="Hatred of the Sun Moon and Stars"/>
+        <skill id="435" name="SG_SUN_ANGER" description="Anger of the Sun"/>
+        <skill id="436" name="SG_MOON_ANGER" description="Anger of the Moon"/>
+        <skill id="437" name="SG_STAR_ANGER" description="Anger of the Stars"/>
+        <skill id="438" name="SG_SUN_BLESS" description="Blessing of the Sun"/>
+        <skill id="439" name="SG_MOON_BLESS" description="Blessing of the Moon"/>
+        <skill id="440" name="SG_STAR_BLESS" description="Blessing of the Stars"/>
+        <skill id="441" name="SG_DEVIL" description="Demon of the Sun Moon and Stars"/>
+        <skill id="442" name="SG_FRIEND" description="Friend of the Sun Moon and Stars"/>
+        <skill id="443" name="SG_KNOWLEDGE" description="Knowledge of the Sun Moon and Stars"/>
+        <skill id="444" name="SG_FUSION" description="Union of the Sun Moon and Stars"/>
+        <skill id="445" name="SL_ALCHEMIST" description="Spirit of the Alchemist"/>
+        <skill id="446" name="AM_BERSERKPITCHER" description="Aid Berserk Potion"/>
+        <skill id="447" name="SL_MONK" description="Spirit of the Monk"/>
+        <skill id="448" name="SL_STAR" description="Spirit of the Star Gladiator"/>
+        <skill id="449" name="SL_SAGE" description="Spirit of the Sage"/>
+        <skill id="450" name="SL_CRUSADER" description="Spirit of the Crusader"/>
+        <skill id="451" name="SL_SUPERNOVICE" description="Spirit of the Supernovice"/>
+        <skill id="452" name="SL_KNIGHT" description="Spirit of the Knight"/>
+        <skill id="453" name="SL_WIZARD" description="Spirit of the Wizard"/>
+        <skill id="454" name="SL_PRIEST" description="Spirit of the Priest"/>
+        <skill id="455" name="SL_BARDDANCER" description="Spirit of the Artist"/>
+        <skill id="456" name="SL_ROGUE" description="Spirit of the Rogue"/>
+        <skill id="457" name="SL_ASSASIN" description="Spirit of the Assasin"/>
+        <skill id="458" name="SL_BLACKSMITH" description="Spirit of the Blacksmith"/>
+        <skill id="459" name="BS_ADRENALINE2" description="Advanced Adrenaline Rush"/>
+        <skill id="460" name="SL_HUNTER" description="Spirit of the Hunter"/>
+        <skill id="461" name="SL_SOULLINKER" description="Spirit of the Soul Linker"/>
+        <skill id="462" name="SL_KAIZEL" description="Kaizel"/>
+        <skill id="463" name="SL_KAAHI" description="Kaahi"/>
+        <skill id="464" name="SL_KAUPE" description="Kaupe"/>
+        <skill id="465" name="SL_KAITE" description="Kaite"/>
+        <skill id="466" name="SL_KAINA" description="Kaina"/>
+        <skill id="467" name="SL_STIN" description="Estin"/>
+        <skill id="468" name="SL_STUN" description="Estun"/>
+        <skill id="469" name="SL_SMA" description="Esma"/>
+        <skill id="470" name="SL_SWOO" description="Eswoo"/>
+        <skill id="471" name="SL_SKE" description="Eske"/>
+        <skill id="472" name="SL_SKA" description="Eska"/>
+        <skill id="473" name="SM_SELFPROVOKE" description="Provoke Self"/>
+        <skill id="474" name="NPC_EMOTION_ON" description="Emotion ON"/>
+        <skill id="475" name="ST_PRESERVE" description="Preserve"/>
+        <skill id="476" name="ST_FULLSTRIP" description="Divest All"/>
+        <skill id="477" name="WS_WEAPONREFINE" description="Upgrade Weapon"/>
+        <skill id="478" name="CR_SLIMPITCHER" description="Aid Condensed Potion"/>
+        <skill id="479" name="CR_FULLPROTECTION" description="Full Protection"/>
+        <skill id="480" name="PA_SHIELDCHAIN" description="Shield Chain"/>
+        <skill id="481" name="HP_MANARECHARGE" description="Mana Recharge"/>
+        <skill id="482" name="PF_DOUBLECASTING" description="Double Casting"/>
+        <skill id="483" name="HW_GANBANTEIN" description="Ganbantein"/>
+        <skill id="484" name="HW_GRAVITATION" description="Gravitation Field"/>
+        <skill id="485" name="WS_CARTTERMINATION" description="Cart Termination"/>
+        <skill id="486" name="WS_OVERTHRUSTMAX" description="Maximum Power Thrust"/>
+        <skill id="487" name="CG_LONGINGFREEDOM" description="Longing for Freedom"/>
+        <skill id="488" name="CG_HERMODE" description="Wand of Hermode"/>
+        <skill id="489" name="CG_TAROTCARD" description="Tarot Card of Fate"/>
+        <skill id="490" name="CR_ACIDDEMONSTRATION" description="Acid Demonstration"/>
+        <skill id="491" name="CR_CULTIVATION" description="Plant Cultivation"/>
+        <skill id="492" name="ITEM_ENCHANTARMS" description="Weapon Enchantment"/>
+        <skill id="493" name="TK_MISSION" description="Taekwon Mission"/>
+        <skill id="494" name="SL_HIGH" description="Spirit of Rebirth"/>
+        <skill id="495" name="KN_ONEHAND" description="Onehand Quicken"/>
+        <skill id="496" name="AM_TWILIGHT1" description="Twilight Alchemy 1"/>
+        <skill id="497" name="AM_TWILIGHT2" description="Twilight Alchemy 2"/>
+        <skill id="498" name="AM_TWILIGHT3" description="Twilight Alchemy 3"/>
+        <skill id="499" name="HT_POWER" description="Beast Strafing"/>
+        <skill id="500" name="GS_GLITTERING" description="Flip the Coin"/>
+        <skill id="501" name="GS_FLING" description="Fling"/>
+        <skill id="502" name="GS_TRIPLEACTION" description="Triple Action"/>
+        <skill id="503" name="GS_BULLSEYE" description="Bulls Eye"/>
+        <skill id="504" name="GS_MADNESSCANCEL" description="Madness Canceller"/>
+        <skill id="505" name="GS_ADJUSTMENT" description="AdJustment"/>
+        <skill id="506" name="GS_INCREASING" description="Increasing Accuracy"/>
+        <skill id="507" name="GS_MAGICALBULLET" description="Magical Bullet"/>
+        <skill id="508" name="GS_CRACKER" description="Cracker"/>
+        <skill id="509" name="GS_SINGLEACTION" description="Single Action"/>
+        <skill id="510" name="GS_SNAKEEYE" description="Snake Eye"/>
+        <skill id="511" name="GS_CHAINACTION" description="Chain Action"/>
+        <skill id="512" name="GS_TRACKING" description="Tracking"/>
+        <skill id="513" name="GS_DISARM" description="Disarm"/>
+        <skill id="514" name="GS_PIERCINGSHOT" description="Piercing Shot"/>
+        <skill id="515" name="GS_RAPIDSHOWER" description="Rapid Shower"/>
+        <skill id="516" name="GS_DESPERADO" description="Desperado"/>
+        <skill id="517" name="GS_GATLINGFEVER" description="Gatling Fever"/>
+        <skill id="518" name="GS_DUST" description="Dust"/>
+        <skill id="519" name="GS_FULLBUSTER" description="Full Buster"/>
+        <skill id="520" name="GS_SPREADATTACK" description="Spread Attack"/>
+        <skill id="521" name="GS_GROUNDDRIFT" description="Ground Drift"/>
+        <skill id="522" name="NJ_TOBIDOUGU" description="Shuriken Training"/>
+        <skill id="523" name="NJ_SYURIKEN" description="Throw Shuriken"/>
+        <skill id="524" name="NJ_KUNAI" description="Throw Kunai"/>
+        <skill id="525" name="NJ_HUUMA" description="Throw Huuma Shuriken"/>
+        <skill id="526" name="NJ_ZENYNAGE" description="Throw Zeny"/>
+        <skill id="527" name="NJ_TATAMIGAESHI" description="Improvised Defense"/>
+        <skill id="528" name="NJ_KASUMIKIRI" description="Vanishing Slash"/>
+        <skill id="529" name="NJ_SHADOWJUMP" description="Shadow Leap"/>
+        <skill id="530" name="NJ_KIRIKAGE" description="Shadow Slash"/>
+        <skill id="531" name="NJ_UTSUSEMI" description="Cicada Skin Sheeding"/>
+        <skill id="532" name="NJ_BUNSINJYUTSU" description="Mirror Image"/>
+        <skill id="533" name="NJ_NINPOU" description="Spirit of the Blade"/>
+        <skill id="534" name="NJ_KOUENKA" description="Crimson Fire Petal"/>
+        <skill id="535" name="NJ_KAENSIN" description="Crimson Fire Formation"/>
+        <skill id="536" name="NJ_BAKUENRYU" description="Raging Fire Dragon"/>
+        <skill id="537" name="NJ_HYOUSENSOU" description="Spear of Ice"/>
+        <skill id="538" name="NJ_SUITON" description="Hidden Water"/>
+        <skill id="539" name="NJ_HYOUSYOURAKU" description="Ice Meteor"/>
+        <skill id="540" name="NJ_HUUJIN" description="Wind Blade"/>
+        <skill id="541" name="NJ_RAIGEKISAI" description="Lightning Strike of Destruction"/>
+        <skill id="542" name="NJ_KAMAITACHI" description="Kamaitachi"/>
+        <skill id="543" name="NJ_NEN" description="Soul"/>
+        <skill id="544" name="NJ_ISSEN" description="Final Strike"/>
+        <skill id="653" name="NPC_EARTHQUAKE" description="Earthquake"/>
+        <skill id="654" name="NPC_FIREBREATH" description="Fire Breath"/>
+        <skill id="655" name="NPC_ICEBREATH" description="Ice Breath"/>
+        <skill id="656" name="NPC_THUNDERBREATH" description="Thunder Breath"/>
+        <skill id="657" name="NPC_ACIDBREATH" description="Acid Breath"/>
+        <skill id="658" name="NPC_DARKNESSBREATH" description="Darkness Breath"/>
+        <skill id="659" name="NPC_DRAGONFEAR" description="Dragon Fear"/>
+        <skill id="660" name="NPC_BLEEDING" description="Bleeding"/>
+        <skill id="661" name="NPC_PULSESTRIKE" description="Pulse Strike"/>
+        <skill id="662" name="NPC_HELLJUDGEMENT" description="Hell's Judgement"/>
+        <skill id="663" name="NPC_WIDESILENCE" description="Wide Silence"/>
+        <skill id="664" name="NPC_WIDEFREEZE" description="Wide Freeze"/>
+        <skill id="665" name="NPC_WIDEBLEEDING" description="Wide Bleeding"/>
+        <skill id="666" name="NPC_WIDESTONE" description="Wide Petrify"/>
+        <skill id="667" name="NPC_WIDECONFUSE" description="Wide Confusion"/>
+        <skill id="668" name="NPC_WIDESLEEP" description="Wide Sleep"/>
+        <skill id="669" name="NPC_WIDESIGHT" description="Wide Sight"/>
+        <skill id="670" name="NPC_EVILLAND" description="Evil Land"/>
+        <skill id="671" name="NPC_MAGICMIRROR" description="Magic Mirror"/>
+        <skill id="672" name="NPC_SLOWCAST" description="Slow Cast"/>
+        <skill id="673" name="NPC_CRITICALWOUND" description="Critical Wounds"/>
+        <skill id="674" name="NPC_EXPULSION" description="Expulsion"/>
+        <skill id="675" name="NPC_STONESKIN" description="Stone Skin"/>
+        <skill id="676" name="NPC_ANTIMAGIC" description="Anti Magic"/>
+        <skill id="677" name="NPC_WIDECURSE" description="Wide Curse"/>
+        <skill id="678" name="NPC_WIDESTUN" description="Wide Stun"/>
+        <skill id="679" name="NPC_VAMPIRE_GIFT" description="Vampire Gift"/>
+        <skill id="680" name="NPC_WIDESOULDRAIN" description="Wide Soul Drain"/>
+        <skill id="681" name="ALL_INCCARRY" description="Increase Weight Limit R"/>
+        <skill id="682" name="NPC_TALK" description="Talk"/>
+        <skill id="683" name="NPC_HELLPOWER" description="Hell Power"/>
+        <skill id="684" name="NPC_WIDEHELLDIGNITY" description="Hell Dignity"/>
+        <skill id="685" name="NPC_INVINCIBLE" description="Invincible"/>
+        <skill id="686" name="NPC_INVINCIBLEOFF" description="Invincible off"/>
+        <skill id="687" name="NPC_ALLHEAL" description="Full Heal"/>
+        <skill id="688" name="GM_SANDMAN" description="GM Sandman"/>
+        <skill id="689" name="CASH_BLESSING" description="Party Blessing"/>
+        <skill id="690" name="CASH_INCAGI" description="Party Increase AGI"/>
+        <skill id="691" name="CASH_ASSUMPTIO" description="Party Assumptio"/>
+        <skill id="692" name="ALL_CATCRY" description="Cat Cry"/>
+        <skill id="693" name="ALL_PARTYFLEE" description="Party Flee"/>
+        <skill id="694" name="ALL_ANGEL_PROTECT" description="Angel's Protection"/>
+        <skill id="695" name="ALL_DREAM_SUMMERNIGHT" description="Summer Night Dream"/>
+        <skill id="697" name="ALL_REVERSEORCISH" description="Reverse Orcish"/>
+        <skill id="698" name="ALL_WEWISH" description="Christmas Carol"/>
+        <skill id="1001" name="KN_CHARGEATK" description="Charge Attack"/>
+        <skill id="1002" name="CR_SHRINK" description="Shrink"/>
+        <skill id="1003" name="AS_SONICACCEL" description="Sonic Acceleration"/>
+        <skill id="1004" name="AS_VENOMKNIFE" description="Throw Venom Knife"/>
+        <skill id="1005" name="RG_CLOSECONFINE" description="Close Confine"/>
+        <skill id="1006" name="WZ_SIGHTBLASTER" description="Sight Blaster"/>
+        <skill id="1007" name="SA_CREATECON" description="Create Elemental Converter"/>
+        <skill id="1008" name="SA_ELEMENTWATER" description="Elemental Change Water"/>
+        <skill id="1009" name="HT_PHANTASMIC" description="Phantasmic Arrow"/>
+        <skill id="1010" name="BA_PANGVOICE" description="Pang Voice"/>
+        <skill id="1011" name="DC_WINKCHARM" description="Wink of Charm"/>
+        <skill id="1012" name="BS_UNFAIRLYTRICK" description="Unfair Trick"/>
+        <skill id="1013" name="BS_GREED" description="Greed"/>
+        <skill id="1014" name="PR_REDEMPTIO" description="Redemptio"/>
+        <skill id="1015" name="MO_KITRANSLATION" description="Ki Translation"/>
+        <skill id="1016" name="MO_BALKYOUNG" description="Ki Explosion"/>
+        <skill id="1017" name="SA_ELEMENTGROUND" description="Elemental Change Earth"/>
+        <skill id="1018" name="SA_ELEMENTFIRE" description="Elemental Change Fire"/>
+        <skill id="1019" name="SA_ELEMENTWIND" description="Elemental Change Wind"/>
+        <skill id="2001" name="RK_ENCHANTBLADE" description="Enchant Blade"/>
+        <skill id="2002" name="RK_SONICWAVE" description="Sonic Wave"/>
+        <skill id="2003" name="RK_DEATHBOUND" description="Death Bound"/>
+        <skill id="2004" name="RK_HUNDREDSPEAR" description="Hundred Spear"/>
+        <skill id="2005" name="RK_WINDCUTTER" description="Wind Cutter"/>
+        <skill id="2006" name="RK_IGNITIONBREAK" description="Ignition Break"/>
+        <skill id="2007" name="RK_DRAGONTRAINING" description="Dragon Training"/>
+        <skill id="2008" name="RK_DRAGONBREATH" description="Dragon Breath"/>
+        <skill id="2009" name="RK_DRAGONHOWLING" description="Dragon Howling"/>
+        <skill id="2010" name="RK_RUNEMASTERY" description="Rune Mastery"/>
+        <skill id="2011" name="RK_MILLENNIUMSHIELD" description="Millenium Shield"/>
+        <skill id="2012" name="RK_CRUSHSTRIKE" description="Crush Strike"/>
+        <skill id="2013" name="RK_REFRESH" description="Refresh"/>
+        <skill id="2014" name="RK_GIANTGROWTH" description="Giant Growth"/>
+        <skill id="2015" name="RK_STONEHARDSKIN" description="Stone Hard Skin"/>
+        <skill id="2016" name="RK_VITALITYACTIVATION" description="Vitality Activation"/>
+        <skill id="2017" name="RK_STORMBLAST" description="Storm Blast"/>
+        <skill id="2018" name="RK_FIGHTINGSPIRIT" description="Fighting Spirit "/>
+        <skill id="2019" name="RK_ABUNDANCE" description="Abundance"/>
+        <skill id="2020" name="RK_PHANTOMTHRUST" description="Phantom Thrust"/>
+        <skill id="2021" name="GC_VENOMIMPRESS" description="Venom Impress"/>
+        <skill id="2022" name="GC_CROSSIMPACT" description="Cross Impact"/>
+        <skill id="2023" name="GC_DARKILLUSION" description="Dark Illusion"/>
+        <skill id="2024" name="GC_RESEARCHNEWPOISON" description="Research New Poison"/>
+        <skill id="2025" name="GC_CREATENEWPOISON" description="Create New Poison"/>
+        <skill id="2026" name="GC_ANTIDOTE" description="Antidote"/>
+        <skill id="2027" name="GC_POISONINGWEAPON" description="Poisoning Weapon"/>
+        <skill id="2028" name="GC_WEAPONBLOCKING" description="Weapon Blocking"/>
+        <skill id="2029" name="GC_COUNTERSLASH" description="Counter Slash"/>
+        <skill id="2030" name="GC_WEAPONCRUSH" description="Weapon Crush "/>
+        <skill id="2031" name="GC_VENOMPRESSURE" description="Venom Pressure"/>
+        <skill id="2032" name="GC_POISONSMOKE" description="Poison Smoke"/>
+        <skill id="2033" name="GC_CLOAKINGEXCEED" description="Cloaking Exceed"/>
+        <skill id="2034" name="GC_PHANTOMMENACE" description="Phantom Menace"/>
+        <skill id="2035" name="GC_HALLUCINATIONWALK" description="Hallucination Walk"/>
+        <skill id="2036" name="GC_ROLLINGCUTTER" description="Rolling Cutter"/>
+        <skill id="2037" name="GC_CROSSRIPPERSLASHER" description="Cross Ripper Slasher"/>
+        <skill id="2038" name="AB_JUDEX" description="Judex"/>
+        <skill id="2039" name="AB_ANCILLA" description="Ancilla"/>
+        <skill id="2040" name="AB_ADORAMUS" description="Adoramus"/>
+        <skill id="2041" name="AB_CLEMENTIA" description="Crementia"/>
+        <skill id="2042" name="AB_CANTO" description="Canto Candidus"/>
+        <skill id="2043" name="AB_CHEAL" description="Coluceo Heal"/>
+        <skill id="2044" name="AB_EPICLESIS" description="Epiclesis"/>
+        <skill id="2045" name="AB_PRAEFATIO" description="Praefatio"/>
+        <skill id="2046" name="AB_ORATIO" description="Oratio"/>
+        <skill id="2047" name="AB_LAUDAAGNUS" description="Lauda Agnus"/>
+        <skill id="2048" name="AB_LAUDARAMUS" description="Lauda Ramus"/>
+        <skill id="2049" name="AB_EUCHARISTICA" description="Eucharistica"/>
+        <skill id="2050" name="AB_RENOVATIO" description="Renovatio"/>
+        <skill id="2051" name="AB_HIGHNESSHEAL" description="Highness Heal "/>
+        <skill id="2052" name="AB_CLEARANCE" description="Clearance "/>
+        <skill id="2053" name="AB_EXPIATIO" description="Expiatio "/>
+        <skill id="2054" name="AB_DUPLELIGHT" description="Duple Light "/>
+        <skill id="2055" name="AB_DUPLELIGHT_MELEE" description="Duple Light Melee"/>
+        <skill id="2056" name="AB_DUPLELIGHT_MAGIC" description="Duple Light Magic"/>
+        <skill id="2057" name="AB_SILENTIUM" description="Silentium "/>
+        <skill id="2201" name="WL_WHITEIMPRISON" description="White Imprison"/>
+        <skill id="2202" name="WL_SOULEXPANSION" description="Soul Expansion"/>
+        <skill id="2203" name="WL_FROSTMISTY" description="Frosty Misty"/>
+        <skill id="2204" name="WL_JACKFROST" description="Jack Frost"/>
+        <skill id="2205" name="WL_MARSHOFABYSS" description="Marsh of Abyss"/>
+        <skill id="2206" name="WL_RECOGNIZEDSPELL" description="Recognized Spell"/>
+        <skill id="2207" name="WL_SIENNAEXECRATE" description="Sienna Execrate"/>
+        <skill id="2208" name="WL_RADIUS" description="Radius"/>
+        <skill id="2209" name="WL_STASIS" description="Stasis"/>
+        <skill id="2210" name="WL_DRAINLIFE" description="Drain Life"/>
+        <skill id="2211" name="WL_CRIMSONROCK" description="Crimson Rock"/>
+        <skill id="2212" name="WL_HELLINFERNO" description="Hell Inferno"/>
+        <skill id="2213" name="WL_COMET" description="Comet"/>
+        <skill id="2214" name="WL_CHAINLIGHTNING" description="Chain Lightning"/>
+        <skill id="2215" name="WL_CHAINLIGHTNING_ATK" description="Chain Lightning Attack"/>
+        <skill id="2216" name="WL_EARTHSTRAIN" description="Earth Strain"/>
+        <skill id="2217" name="WL_TETRAVORTEX" description="Tetra Vortex"/>
+        <skill id="2218" name="WL_TETRAVORTEX_FIRE" description="Tetra Vortex Fire"/>
+        <skill id="2219" name="WL_TETRAVORTEX_WATER" description="Tetra Vortex Water"/>
+        <skill id="2220" name="WL_TETRAVORTEX_WIND" description="Tetra Vortex Wind"/>
+        <skill id="2221" name="WL_TETRAVORTEX_GROUND" description="Tetra Vortex Earth"/>
+        <skill id="2222" name="WL_SUMMONFB" description="Summon Fire Ball"/>
+        <skill id="2223" name="WL_SUMMONBL" description="Summon Lightning Ball"/>
+        <skill id="2224" name="WL_SUMMONWB" description="Summon Water Ball"/>
+        <skill id="2225" name="WL_SUMMON_ATK_FIRE" description="Summon Attack Fire"/>
+        <skill id="2226" name="WL_SUMMON_ATK_WIND" description="Summon Attack Wind"/>
+        <skill id="2227" name="WL_SUMMON_ATK_WATER" description="Summon Attack Water"/>
+        <skill id="2228" name="WL_SUMMON_ATK_GROUND" description="Summon Attack Earth"/>
+        <skill id="2229" name="WL_SUMMONSTONE" description="Summon Stone"/>
+        <skill id="2230" name="WL_RELEASE" description="Release"/>
+        <skill id="2231" name="WL_READING_SB" description="Reading Spellbook"/>
+        <skill id="2232" name="WL_FREEZE_SP" description="Freeze Spell"/>
+        <skill id="2233" name="RA_ARROWSTORM" description="Arrow Storm"/>
+        <skill id="2234" name="RA_FEARBREEZE" description="Fear Breeze"/>
+        <skill id="2235" name="RA_RANGERMAIN" description="Ranger Main"/>
+        <skill id="2236" name="RA_AIMEDBOLT" description="Aimed Bolt"/>
+        <skill id="2237" name="RA_DETONATOR" description="Detonator"/>
+        <skill id="2238" name="RA_ELECTRICSHOCKER" description="Electric Shocker"/>
+        <skill id="2239" name="RA_CLUSTERBOMB" description="Cluster Bomb"/>
+        <skill id="2240" name="RA_WUGMASTERY" description="Warg Mastery"/>
+        <skill id="2241" name="RA_WUGRIDER" description="Warg Rider"/>
+        <skill id="2242" name="RA_WUGDASH" description="Warg Dash"/>
+        <skill id="2243" name="RA_WUGSTRIKE" description="Warg Strike"/>
+        <skill id="2244" name="RA_WUGBITE" description="Warg Bite"/>
+        <skill id="2245" name="RA_TOOTHOFWUG" description="Tooth of Warg"/>
+        <skill id="2246" name="RA_SENSITIVEKEEN" description="Sensitive Keen"/>
+        <skill id="2247" name="RA_CAMOUFLAGE" description="Camouflage"/>
+        <skill id="2248" name="RA_RESEARCHTRAP" description="Research Trap"/>
+        <skill id="2249" name="RA_MAGENTATRAP" description="Magenta Trap"/>
+        <skill id="2250" name="RA_COBALTTRAP" description="Cobalt Trap"/>
+        <skill id="2251" name="RA_MAIZETRAP" description="Maize Trap"/>
+        <skill id="2252" name="RA_VERDURETRAP" description="Verdure Trap"/>
+        <skill id="2253" name="RA_FIRINGTRAP" description="Firing Trap"/>
+        <skill id="2254" name="RA_ICEBOUNDTRAP" description="Icebound Trap"/>
+        <skill id="2255" name="NC_MADOLICENCE" description="Mado License"/>
+        <skill id="2256" name="NC_BOOSTKNUCKLE" description="Boost Knuckle"/>
+        <skill id="2257" name="NC_PILEBUNKER" description="Pile Bunker"/>
+        <skill id="2258" name="NC_VULCANARM" description="Vulcan Arm"/>
+        <skill id="2259" name="NC_FLAMELAUNCHER" description="Flame Launcher"/>
+        <skill id="2260" name="NC_COLDSLOWER" description="Cold Slower"/>
+        <skill id="2261" name="NC_ARMSCANNON" description="Arm Cannon"/>
+        <skill id="2262" name="NC_ACCELERATION" description="Acceleration"/>
+        <skill id="2263" name="NC_HOVERING" description="Hovering"/>
+        <skill id="2264" name="NC_F_SIDESLIDE" description="Front-Side Slide"/>
+        <skill id="2265" name="NC_B_SIDESLIDE" description="Back-Side Slide"/>
+        <skill id="2266" name="NC_MAINFRAME" description="Mainframe Restructure "/>
+        <skill id="2267" name="NC_SELFDESTRUCTION" description="Self Destruction"/>
+        <skill id="2268" name="NC_SHAPESHIFT" description="Shape Shift"/>
+        <skill id="2269" name="NC_EMERGENCYCOOL" description="Emergency Cool"/>
+        <skill id="2270" name="NC_INFRAREDSCAN" description="Infrared Scan"/>
+        <skill id="2271" name="NC_ANALYZE" description="Analyze"/>
+        <skill id="2272" name="NC_MAGNETICFIELD" description="Magnetic Field"/>
+        <skill id="2273" name="NC_NEUTRALBARRIER" description="Neutral Barrier"/>
+        <skill id="2274" name="NC_STEALTHFIELD" description="Stealth Field"/>
+        <skill id="2275" name="NC_REPAIR" description="Repair"/>
+        <skill id="2276" name="NC_TRAININGAXE" description="Axe Training"/>
+        <skill id="2277" name="NC_RESEARCHFE" description="Research Fire/Earth"/>
+        <skill id="2278" name="NC_AXEBOOMERANG" description="Axe Boomerang"/>
+        <skill id="2279" name="NC_POWERSWING" description="Power Swing"/>
+        <skill id="2280" name="NC_AXETORNADO" description="Axe Tornado "/>
+        <skill id="2281" name="NC_SILVERSNIPER" description="FAW - Silver Sniper"/>
+        <skill id="2282" name="NC_MAGICDECOY" description="FAW - Magic Decoy"/>
+        <skill id="2283" name="NC_DISJOINT" description="FAW Removal"/>
+        <skill id="2284" name="SC_FATALMENACE" description="Fatal Menace"/>
+        <skill id="2285" name="SC_REPRODUCE" description="Reproduce"/>
+        <skill id="2286" name="SC_AUTOSHADOWSPELL" description="Auto Shadow Spell"/>
+        <skill id="2287" name="SC_SHADOWFORM" description="Shadow Form"/>
+        <skill id="2288" name="SC_TRIANGLESHOT" description="Triangle Shot"/>
+        <skill id="2289" name="SC_BODYPAINT" description="Body Painting"/>
+        <skill id="2290" name="SC_INVISIBILITY" description="Invisibility"/>
+        <skill id="2291" name="SC_DEADLYINFECT" description="Deadly Infect"/>
+        <skill id="2292" name="SC_ENERVATION" description="Masquerade - Enervation"/>
+        <skill id="2293" name="SC_GROOMY" description="Masquerade - Gloomy"/>
+        <skill id="2294" name="SC_IGNORANCE" description="Masquerade - Ignorance"/>
+        <skill id="2295" name="SC_LAZINESS" description="Masquerade - Laziness"/>
+        <skill id="2296" name="SC_UNLUCKY" description="Masquerade - Unlucky"/>
+        <skill id="2297" name="SC_WEAKNESS" description="Masquerade - Weakness"/>
+        <skill id="2298" name="SC_STRIPACCESSARY" description="Strip Accessory "/>
+        <skill id="2299" name="SC_MANHOLE" description="Man Hole"/>
+        <skill id="2300" name="SC_DIMENSIONDOOR" description="Dimension Door"/>
+        <skill id="2301" name="SC_CHAOSPANIC" description="Chaos Panic"/>
+        <skill id="2302" name="SC_MAELSTROM" description="Maelstrom"/>
+        <skill id="2303" name="SC_BLOODYLUST" description="Bloody Lust"/>
+        <skill id="2304" name="SC_FEINTBOMB" description="Feint Bomb"/>
+        <skill id="2307" name="LG_CANNONSPEAR" description="Cannon Spear"/>
+        <skill id="2308" name="LG_BANISHINGPOINT" description="Banishing Point"/>
+        <skill id="2309" name="LG_TRAMPLE" description="Trample"/>
+        <skill id="2310" name="LG_SHIELDPRESS" description="Shield Press"/>
+        <skill id="2311" name="LG_REFLECTDAMAGE" description="Reflect Damage"/>
+        <skill id="2312" name="LG_PINPOINTATTACK" description="Pinpoint Attack"/>
+        <skill id="2313" name="LG_FORCEOFVANGUARD" description="Force of Vanguard"/>
+        <skill id="2314" name="LG_RAGEBURST" description="Rage Burst"/>
+        <skill id="2315" name="LG_SHIELDSPELL" description="Shield Spell"/>
+        <skill id="2316" name="LG_EXEEDBREAK" description="Exceed Break"/>
+        <skill id="2317" name="LG_OVERBRAND" description="Over Brand"/>
+        <skill id="2318" name="LG_PRESTIGE" description="Prestige"/>
+        <skill id="2319" name="LG_BANDING" description="Banding "/>
+        <skill id="2320" name="LG_MOONSLASHER" description="Moon Slasher"/>
+        <skill id="2321" name="LG_RAYOFGENESIS" description="Ray of Genesis"/>
+        <skill id="2322" name="LG_PIETY" description="Piety"/>
+        <skill id="2323" name="LG_EARTHDRIVE" description="Earth Drive"/>
+        <skill id="2324" name="LG_HESPERUSLIT" description="Hesperus Lit"/>
+        <skill id="2325" name="LG_INSPIRATION" description="Inspiration"/>
+        <skill id="2519" name="LG_OVERBRAND_BRANDISH" description="Over Brand"/>
+        <skill id="2326" name="SR_DRAGONCOMBO" description="Dragon Combo"/>
+        <skill id="2327" name="SR_SKYNETBLOW" description="Sky Net Blow"/>
+        <skill id="2328" name="SR_EARTHSHAKER" description="Earth Shaker "/>
+        <skill id="2329" name="SR_FALLENEMPIRE" description="Fallen Empire "/>
+        <skill id="2330" name="SR_TIGERCANNON" description="Tiger Cannon "/>
+        <skill id="2331" name="SR_HELLGATE" description="Hell Gate"/>
+        <skill id="2332" name="SR_RAMPAGEBLASTER" description="Rampage Blaster"/>
+        <skill id="2333" name="SR_CRESCENTELBOW" description="Crescent Elbow "/>
+        <skill id="2334" name="SR_CURSEDCIRCLE" description="Cursed Circle"/>
+        <skill id="2335" name="SR_LIGHTNINGWALK" description="Lightning Walk"/>
+        <skill id="2336" name="SR_KNUCKLEARROW" description="Knuckle Arrow"/>
+        <skill id="2337" name="SR_WINDMILL" description="Windmill"/>
+        <skill id="2338" name="SR_RAISINGDRAGON" description="Raising Dragon"/>
+        <skill id="2339" name="SR_GENTLETOUCH" description="Gentle Touch"/>
+        <skill id="2340" name="SR_ASSIMILATEPOWER" description="Assimilate Power"/>
+        <skill id="2341" name="SR_POWERVELOCITY" description="Power Velocity"/>
+        <skill id="2342" name="SR_CRESCENTELBOW_AUTOSPELL" description="Crescent Elbow Autospell "/>
+        <skill id="2343" name="SR_GATEOFHELL" description="Gate of Hell "/>
+        <skill id="2344" name="SR_GENTLETOUCH_QUIET" description="Gentle Touch - Quiet"/>
+        <skill id="2345" name="SR_GENTLETOUCH_CURE" description="Gentle Touch - Cure "/>
+        <skill id="2346" name="SR_GENTLETOUCH_ENERGYGAIN" description="Gentle Touch - Energy Gain"/>
+        <skill id="2347" name="SR_GENTLETOUCH_CHANGE" description="Gentle Touch - Change"/>
+        <skill id="2348" name="SR_GENTLETOUCH_REVITALIZE" description="Gentle Touch - Revitalize"/>
+        <skill id="2350" name="WA_SWING_DANCE" description="Swing Dance"/>
+        <skill id="2351" name="WA_SYMPHONY_OF_LOVER" description="Symphony of Lovers"/>
+        <skill id="2352" name="WA_MOONLIT_SERENADE" description="Moonlit Serenade"/>
+        <skill id="2381" name="MI_RUSH_WINDMILL" description="Windmill Rush Attack"/>
+        <skill id="2382" name="MI_ECHOSONG" description="Echo Song"/>
+        <skill id="2383" name="MI_HARMONIZE" description="Harmonize"/>
+        <skill id="2412" name="WM_LESSON" description="Lesson"/>
+        <skill id="2413" name="WM_METALICSOUND" description="Metallic Sound"/>
+        <skill id="2414" name="WM_REVERBERATION" description="Reverberation "/>
+        <skill id="2415" name="WM_REVERBERATION_MELEE" description="Reverberation Melee"/>
+        <skill id="2416" name="WM_REVERBERATION_MAGIC" description="Reverberation Magic"/>
+        <skill id="2417" name="WM_DOMINION_IMPULSE" description="Dominion Impulse"/>
+        <skill id="2418" name="WM_SEVERE_RAINSTORM" description="Severe Rainstorm"/>
+        <skill id="2419" name="WM_POEMOFNETHERWORLD" description="Poem of The Netherworld "/>
+        <skill id="2420" name="WM_VOICEOFSIREN" description="Voice of Siren"/>
+        <skill id="2421" name="WM_DEADHILLHERE" description="Valley of Death"/>
+        <skill id="2422" name="WM_LULLABY_DEEPSLEEP" description="Deep Sleep Lullaby"/>
+        <skill id="2423" name="WM_SIRCLEOFNATURE" description="Circle of Nature's Sound"/>
+        <skill id="2424" name="WM_RANDOMIZESPELL" description="Improvised Song"/>
+        <skill id="2425" name="WM_GLOOMYDAY" description="Gloomy Day"/>
+        <skill id="2426" name="WM_GREAT_ECHO" description="Great Echo"/>
+        <skill id="2427" name="WM_SONG_OF_MANA" description="Song of Mana"/>
+        <skill id="2428" name="WM_DANCE_WITH_WUG" description="Dance With A Warg"/>
+        <skill id="2429" name="WM_SOUND_OF_DESTRUCTION" description="Sound of Destruction"/>
+        <skill id="2430" name="WM_SATURDAY_NIGHT_FEVER" description="Saturday Night Fever"/>
+        <skill id="2431" name="WM_LERADS_DEW" description="Lerad's Dew"/>
+        <skill id="2432" name="WM_MELODYOFSINK" description="Melody of Sink"/>
+        <skill id="2433" name="WM_BEYOND_OF_WARCRY" description="Warcry of Beyond"/>
+        <skill id="2434" name="WM_UNLIMITED_HUMMING_VOICE" description="Unlimited Humming Voice"/>
+        <skill id="2443" name="SO_FIREWALK" description="Fire Walk "/>
+        <skill id="2444" name="SO_ELECTRICWALK" description="Electric Walk"/>
+        <skill id="2445" name="SO_SPELLFIST" description="Spell Fist"/>
+        <skill id="2446" name="SO_EARTHGRAVE" description="Earth Grave"/>
+        <skill id="2447" name="SO_DIAMONDDUST" description="Diamond Dust"/>
+        <skill id="2448" name="SO_POISON_BUSTER" description="Poison Buster"/>
+        <skill id="2449" name="SO_PSYCHIC_WAVE" description="Psychic Wave"/>
+        <skill id="2450" name="SO_CLOUD_KILL" description="Cloud Kill"/>
+        <skill id="2451" name="SO_STRIKING" description="Striking "/>
+        <skill id="2452" name="SO_WARMER" description="Warmer"/>
+        <skill id="2453" name="SO_VACUUM_EXTREME" description="Vacuum Extreme"/>
+        <skill id="2454" name="SO_VARETYR_SPEAR" description="Varetyr Spear"/>
+        <skill id="2455" name="SO_ARRULLO" description="Arrullo"/>
+        <skill id="2456" name="SO_EL_CONTROL" description="Spirit Control"/>
+        <skill id="2457" name="SO_SUMMON_AGNI" description="Summon Fire Spirit Agni"/>
+        <skill id="2458" name="SO_SUMMON_AQUA" description="Summon Water Spirit Aqua"/>
+        <skill id="2459" name="SO_SUMMON_VENTUS" description="Summon Wind Spirit Ventus"/>
+        <skill id="2460" name="SO_SUMMON_TERA" description="Summon Earth Spirit Tera"/>
+        <skill id="2461" name="SO_EL_ACTION" description="Elemental Action"/>
+        <skill id="2462" name="SO_EL_ANALYSIS" description="Four Spirit Analysis"/>
+        <skill id="2463" name="SO_EL_SYMPATHY" description="Spirit Sympathy"/>
+        <skill id="2464" name="SO_EL_CURE" description="Spirit Recovery"/>
+        <skill id="2465" name="SO_FIRE_INSIGNIA" description="Fire Insignia "/>
+        <skill id="2466" name="SO_WATER_INSIGNIA" description="Water Insignia "/>
+        <skill id="2467" name="SO_WIND_INSIGNIA" description="Wind Insignia"/>
+        <skill id="2468" name="SO_EARTH_INSIGNIA" description="Earth Insignia"/>
+        <skill id="2474" name="GN_TRAINING_SWORD" description="Sword Training"/>
+        <skill id="2475" name="GN_REMODELING_CART" description="Cart Remodeling"/>
+        <skill id="2476" name="GN_CART_TORNADO" description="Cart Tornado"/>
+        <skill id="2477" name="GN_CARTCANNON" description="Cart Cannon"/>
+        <skill id="2478" name="GN_CARTBOOST" description="Cart Boost"/>
+        <skill id="2479" name="GN_THORNS_TRAP" description="Thorn Trap"/>
+        <skill id="2480" name="GN_BLOOD_SUCKER" description="Blood Sucker "/>
+        <skill id="2481" name="GN_SPORE_EXPLOSION" description="Spore Explosion "/>
+        <skill id="2482" name="GN_WALLOFTHORN" description="Wall of Thorns"/>
+        <skill id="2483" name="GN_CRAZYWEED" description="Crazy Weed"/>
+        <skill id="2484" name="GN_CRAZYWEED_ATK" description="Crazy Weed Attack"/>
+        <skill id="2485" name="GN_DEMONIC_FIRE" description="Demonic Fire"/>
+        <skill id="2486" name="GN_FIRE_EXPANSION" description="Fire Expansion "/>
+        <skill id="2487" name="GN_FIRE_EXPANSION_SMOKE_POWDER" description="Fire Expansion Smoke Powder"/>
+        <skill id="2488" name="GN_FIRE_EXPANSION_TEAR_GAS" description="Fire Expansion Tear Gas"/>
+        <skill id="2489" name="GN_FIRE_EXPANSION_ACID" description="Fire Expansion Acid"/>
+        <skill id="2490" name="GN_HELLS_PLANT" description="Hell's Plant"/>
+        <skill id="2491" name="GN_HELLS_PLANT_ATK" description="Hell's Plant Attack"/>
+        <skill id="2492" name="GN_MANDRAGORA" description="Howling of Mandragora"/>
+        <skill id="2493" name="GN_SLINGITEM" description="Sling Item"/>
+        <skill id="2494" name="GN_CHANGEMATERIAL" description="Change Material"/>
+        <skill id="2495" name="GN_MIX_COOKING" description="Mix Cooking"/>
+        <skill id="2496" name="GN_MAKEBOMB" description="Create Bomb"/>
+        <skill id="2497" name="GN_S_PHARMACY" description="Special Pharmacy"/>
+        <skill id="2498" name="GN_SLINGITEM_RANGEMELEEATK" description="Sling Item Attack"/>
+        <skill id="2515" name="AB_SECRAMENT" description="Secrament"/>
+        <skill id="2516" name="WM_SEVERE_RAINSTORM_MELEE" description="Severe Rainstorm Melee"/>
+        <skill id="2517" name="SR_HOWLINGOFLION" description="Howling of Lion"/>
+        <skill id="2518" name="SR_RIDEINLIGHTNING" description="Ride In Lightening"/>
+        <skill id="2534" name="RETURN_TO_ELDICASTES" description="Return To Eldicastes"/>
+        <skill id="2535" name="ALL_BUYING_STORE" description="Open Buying Store"/>
+        <skill id="2536" name="ALL_GUARDIAN_RECALL" description="Guardian's Recall"/>
+        <skill id="2537" name="ALL_ODINS_POWER" description="Odin's Power"/>
+        <skill id="2551" name="RL_GLITTERING_GREED" description="Flip The Coin Greed"/>
+        <skill id="2552" name="RL_RICHS_COIN" description="Rich's Coin"/>
+        <skill id="2553" name="RL_MASS_SPIRAL" description="Mass Spiral"/>
+        <skill id="2554" name="RL_BANISHING_BUSTER" description="Banishing Buster"/>
+        <skill id="2555" name="RL_B_TRAP" description="Bind Trap"/>
+        <skill id="2556" name="RL_FLICKER" description="Flicker"/>
+        <skill id="2557" name="RL_S_STORM" description="Shatter Storm"/>
+        <skill id="2558" name="RL_E_CHAIN" description="Eternal Chain"/>
+        <skill id="2559" name="RL_QD_SHOT" description="Quick Draw Shot"/>
+        <skill id="2560" name="RL_C_MARKER" description="Crimson Marker"/>
+        <skill id="2561" name="RL_FIREDANCE" description="Fire Dance"/>
+        <skill id="2562" name="RL_H_MINE" description="Howling Mine"/>
+        <skill id="2563" name="RL_P_ALTER" description="Platinum Alter"/>
+        <skill id="2564" name="RL_FALLEN_ANGEL" description="Fallen Angel"/>
+        <skill id="2565" name="RL_R_TRIP" description="Round Trip"/>
+        <skill id="2566" name="RL_D_TAIL" description="Dragon Tail"/>
+        <skill id="2567" name="RL_FIRE_RAIN" description="Fire Rain"/>
+        <skill id="2568" name="RL_HEAT_BARREL" description="Heat Barrel"/>
+        <skill id="2569" name="RL_AM_BLAST" description="Anti-Material Blast"/>
+        <skill id="2570" name="RL_SLUGSHOT" description="Slug Shot"/>
+        <skill id="2571" name="RL_HAMMER_OF_GOD" description="Hammer of God"/>
+        <skill id="2572" name="RL_R_TRIP_PLUSATK" description="Round Trip Plus Attack"/>
+        <skill id="2573" name="RL_B_FLICKER_ATK" description="Bind Flicker Attack"/>
+        <skill id="2574" name="RL_GLITTERING_GREED_ATK" description="Flip The Coin Greed Attack"/>
+        <skill id="3001" name="KO_YAMIKUMO" description="Yamikumo"/>
+        <skill id="3002" name="KO_RIGHT" description="Right Hand Mastery"/>
+        <skill id="3003" name="KO_LEFT" description="Left Hand Mastery"/>
+        <skill id="3004" name="KO_JYUMONJIKIRI" description="Cross Strike"/>
+        <skill id="3005" name="KO_SETSUDAN" description="Soul Sever"/>
+        <skill id="3006" name="KO_BAKURETSU" description="Bakuretsu Kunai"/>
+        <skill id="3007" name="KO_HAPPOKUNAI" description="Happo Kunai"/>
+        <skill id="3008" name="KO_MUCHANAGE" description="Mucha Nage"/>
+        <skill id="3009" name="KO_HUUMARANKA" description="Huuma Shuriken Ranka"/>
+        <skill id="3010" name="KO_MAKIBISHI" description="Makibishi"/>
+        <skill id="3011" name="KO_MEIKYOUSISUI" description="Meikyo Shisui"/>
+        <skill id="3012" name="KO_ZANZOU" description="Zanzou"/>
+        <skill id="3013" name="KO_KYOUGAKU" description="Kyougaku"/>
+        <skill id="3014" name="KO_JYUSATSU" description="Jyusatsu"/>
+        <skill id="3015" name="KO_KAHU_ENTEN" description="Kahu Enten"/>
+        <skill id="3016" name="KO_HYOUHU_HUBUKI" description="Hyouhu Hubuki"/>
+        <skill id="3017" name="KO_KAZEHU_SEIRAN" description="Kazehu Seiran"/>
+        <skill id="3018" name="KO_DOHU_KOUKAI" description="Dohu Koukai"/>
+        <skill id="3019" name="KO_KAIHOU" description="Technique Kaihou"/>
+        <skill id="3020" name="KO_ZENKAI" description="Zenkai"/>
+        <skill id="3021" name="KO_GENWAKU" description="Genwaku"/>
+        <skill id="3022" name="KO_IZAYOI" description="Izayoi"/>
+        <skill id="3023" name="KG_KAGEHUMI" description="Kagehumi"/>
+        <skill id="3024" name="KG_KYOMU" description="Kyomu"/>
+        <skill id="3025" name="KG_KAGEMUSYA" description="Kagemusha"/>
+        <skill id="3026" name="OB_ZANGETSU" description="Zangetsu"/>
+        <skill id="3027" name="OB_OBOROGENSOU" description="Oboro Gensou"/>
+        <skill id="3028" name="OB_OBOROGENSOU_TRANSITION_ATK" description="Hazy Moonlight Illusion Transition Attack"/>
+        <skill id="3029" name="OB_AKAITSUKI" description="Akaitsuki"/>
+        <skill id="3031" name="ECL_SNOWFLIP" description="Snow Flip"/>
+        <skill id="3032" name="ECL_PEONYMAMY" description="Peony Mamy"/>
+        <skill id="3033" name="ECL_SADAGUI" description="Sadagui"/>
+        <skill id="3034" name="ECL_SEQUOIADUST" description="Sequoia Dust"/>
+        <skill id="3035" name="ECLAGE_RECALL" description="Return To Eclage"/>
+        <skill id="5001" name="GC_DARKCROW" description="Dark Claw"/>
+        <skill id="5002" name="RA_UNLIMIT" description="Unlimited"/>
+        <skill id="5003" name="GN_ILLUSIONDOPING" description="Illusion Doping"/>
+        <skill id="5004" name="RK_DRAGONBREATH_WATER" description="Dragon Breath - Water"/>
+        <skill id="5005" name="RK_LUXANIMA" description="Lux Anima"/>
+        <skill id="5006" name="NC_MAGMA_ERUPTION" description="Magma Eruption"/>
+        <skill id="5007" name="WM_FRIGG_SONG" description="Frigg's Song"/>
+        <skill id="5008" name="SO_ELEMENTAL_SHIELD" description="Elemental Shield"/>
+        <skill id="5009" name="SR_FLASHCOMBO" description="Flash Combo"/>
+        <skill id="5010" name="SC_ESCAPE" description="Emergency Escape"/>
+        <skill id="5011" name="AB_OFFERTORIUM" description="Offertorium"/>
+        <skill id="5012" name="WL_TELEKINESIS_INTENSE" description="Intense Telekinesis"/>
+        <skill id="5013" name="LG_KINGS_GRACE" description="King's Grace"/>
+        <skill id="5014" name="ALL_FULL_THROTTLE" description="Full Throttle"/>
+        <skill id="5015" name="SR_FLASHCOMBO_ATK_STEP1" description="Flash Combo Attack Step 1"/>
+        <skill id="5016" name="SR_FLASHCOMBO_ATK_STEP2" description="Flash Combo Attack Step 2"/>
+        <skill id="5017" name="SR_FLASHCOMBO_ATK_STEP3" description="Flash Combo Attack Step 3"/>
+        <skill id="5018" name="SR_FLASHCOMBO_ATK_STEP4" description="Flash Combo Attack Step 4"/>
+        <skill id="8001" name="HLIF_HEAL" description="Healing Touch"/>
+        <skill id="8002" name="HLIF_AVOID" description="Avoid"/>
+        <skill id="8003" name="HLIF_BRAIN" description="Brain Surgery"/>
+        <skill id="8004" name="HLIF_CHANGE" description="Change"/>
+        <skill id="8005" name="HAMI_CASTLE" description="Castling"/>
+        <skill id="8006" name="HAMI_DEFENCE" description="Defense"/>
+        <skill id="8007" name="HAMI_SKIN" description="Adamantium Skin"/>
+        <skill id="8008" name="HAMI_BLOODLUST" description="Bloodlust"/>
+        <skill id="8009" name="HFLI_MOON" description="Moonlight"/>
+        <skill id="8010" name="HFLI_FLEET" description="Fleeting Move"/>
+        <skill id="8011" name="HFLI_SPEED" description="Speed"/>
+        <skill id="8012" name="HFLI_SBR44" description="S.B.R.44"/>
+        <skill id="8013" name="HVAN_CAPRICE" description="Caprice"/>
+        <skill id="8014" name="HVAN_CHAOTIC" description="Benediction of Chaos"/>
+        <skill id="8015" name="HVAN_INSTRUCT" description="Instruct"/>
+        <skill id="8016" name="HVAN_EXPLOSION" description="Bio Explosion"/>
+        <skill id="8018" name="MH_SUMMON_LEGION" description="Summon Legion"/>
+        <skill id="8019" name="MH_NEEDLE_OF_PARALYZE" description="Needle of Paralyze"/>
+        <skill id="8020" name="MH_POISON_MIST" description="Poison Mist"/>
+        <skill id="8021" name="MH_PAIN_KILLER" description="Pain Killer"/>
+        <skill id="8022" name="MH_LIGHT_OF_REGENE" description="Light of Regene"/>
+        <skill id="8023" name="MH_OVERED_BOOST" description="Overed Boost"/>
+        <skill id="8024" name="MH_ERASER_CUTTER" description="Eraser Cutter"/>
+        <skill id="8025" name="MH_XENO_SLASHER" description="Xeno Slasher"/>
+        <skill id="8026" name="MH_SILENT_BREEZE" description="Silent Breeze"/>
+        <skill id="8027" name="MH_STYLE_CHANGE" description="Style Change"/>
+        <skill id="8028" name="MH_SONIC_CRAW" description="Sonic Claw"/>
+        <skill id="8029" name="MH_SILVERVEIN_RUSH" description="Silver Bain Rush"/>
+        <skill id="8030" name="MH_MIDNIGHT_FRENZY" description="Midnight Frenzy"/>
+        <skill id="8031" name="MH_STAHL_HORN" description="Steel Horn"/>
+        <skill id="8032" name="MH_GOLDENE_FERSE" description="Golden Heel"/>
+        <skill id="8033" name="MH_STEINWAND" description="Stone Wall"/>
+        <skill id="8034" name="MH_HEILIGE_STANGE" description="Holy Pole"/>
+        <skill id="8035" name="MH_ANGRIFFS_MODUS" description="Attack Mode"/>
+        <skill id="8036" name="MH_TINDER_BREAKER" description="Tinder Breaker"/>
+        <skill id="8037" name="MH_CBC" description="Continual Break Combo"/>
+        <skill id="8038" name="MH_EQC" description="Eternal Quick Combo"/>
+        <skill id="8039" name="MH_MAGMA_FLOW" description="Magma Flow"/>
+        <skill id="8040" name="MH_GRANITIC_ARMOR" description="Granitic Armor"/>
+        <skill id="8041" name="MH_LAVA_SLIDE" description="Lava Slide"/>
+        <skill id="8042" name="MH_PYROCLASTIC" description="Pyroclastic"/>
+        <skill id="8043" name="MH_VOLCANIC_ASH" description="Volcanic Ash"/>
+        <skill id="8201" name="MS_BASH" description="Bash"/>
+        <skill id="8202" name="MS_MAGNUM" description="Magnum_Break"/>
+        <skill id="8203" name="MS_BOWLINGBASH" description="Bowling_Bash"/>
+        <skill id="8204" name="MS_PARRYING" description="Parry"/>
+        <skill id="8205" name="MS_REFLECTSHIELD" description="Shield_Reflect"/>
+        <skill id="8206" name="MS_BERSERK" description="Frenzy"/>
+        <skill id="8207" name="MA_DOUBLE" description="Double_Strafe"/>
+        <skill id="8208" name="MA_SHOWER" description="Arrow_Shower"/>
+        <skill id="8209" name="MA_SKIDTRAP" description="Skid_Trap"/>
+        <skill id="8210" name="MA_LANDMINE" description="Land_Mine"/>
+        <skill id="8211" name="MA_SANDMAN" description="Sandman"/>
+        <skill id="8212" name="MA_FREEZINGTRAP" description="Freezing_Trap"/>
+        <skill id="8213" name="MA_REMOVETRAP" description="Remove_Trap"/>
+        <skill id="8214" name="MA_CHARGEARROW" description="Arrow_Repel"/>
+        <skill id="8215" name="MA_SHARPSHOOTING" description="Focused_Arrow_Strike"/>
+        <skill id="8216" name="ML_PIERCE" description="Pierce"/>
+        <skill id="8217" name="ML_BRANDISH" description="Brandish_Spear"/>
+        <skill id="8218" name="ML_SPIRALPIERCE" description="Spiral_Pierce"/>
+        <skill id="8219" name="ML_DEFENDER" description="Defending_Aura"/>
+        <skill id="8220" name="ML_AUTOGUARD" description="Guard"/>
+        <skill id="8221" name="ML_DEVOTION" description="Sacrifice"/>
+        <skill id="8222" name="MER_MAGNIFICAT" description="Magnificat"/>
+        <skill id="8223" name="MER_QUICKEN" description="Two-Hand_Quicken"/>
+        <skill id="8224" name="MER_SIGHT" description="Sight"/>
+        <skill id="8225" name="MER_CRASH" description="Crash"/>
+        <skill id="8226" name="MER_REGAIN" description="Regain"/>
+        <skill id="8227" name="MER_TENDER" description="Tender"/>
+        <skill id="8228" name="MER_BENEDICTION" description="Benediction"/>
+        <skill id="8229" name="MER_RECUPERATE" description="Recuperate"/>
+        <skill id="8230" name="MER_MENTALCURE" description="Mental_Cure"/>
+        <skill id="8231" name="MER_COMPRESS" description="Compress"/>
+        <skill id="8232" name="MER_PROVOKE" description="Provoke"/>
+        <skill id="8233" name="MER_AUTOBERSERK" description="Berserk"/>
+        <skill id="8234" name="MER_DECAGI" description="Decrease_AGI"/>
+        <skill id="8235" name="MER_SCAPEGOAT" description="Scapegoat"/>
+        <skill id="8236" name="MER_LEXDIVINA" description="Lex_Divina"/>
+        <skill id="8237" name="MER_ESTIMATION" description="Sense"/>
+        <skill id="8238" name="MER_KYRIE" description="Kyrie Eleison"/>
+        <skill id="8239" name="MER_BLESSING" description="Blessing"/>
+        <skill id="8240" name="MER_INCAGI" description="Increase Agility"/>
+        <skill id="8401" name="EL_CIRCLE_OF_FIRE" description="Circle of Fire"/>
+        <skill id="8402" name="EL_FIRE_CLOAK" description="Fire Cloak"/>
+        <skill id="8403" name="EL_FIRE_MANTLE" description="Fire Mantle"/>
+        <skill id="8404" name="EL_WATER_SCREEN" description="Water Screen"/>
+        <skill id="8405" name="EL_WATER_DROP" description="Water Drop"/>
+        <skill id="8406" name="EL_WATER_BARRIER" description="Water Barrier"/>
+        <skill id="8407" name="EL_WIND_STEP" description="Wind Step"/>
+        <skill id="8408" name="EL_WIND_CURTAIN" description="Wind Curtain"/>
+        <skill id="8409" name="EL_ZEPHYR" description="Zephyr"/>
+        <skill id="8410" name="EL_SOLID_SKIN" description="Solid Skin"/>
+        <skill id="8411" name="EL_STONE_SHIELD" description="Stone Shield"/>
+        <skill id="8412" name="EL_POWER_OF_GAIA" description="Power of Gaia"/>
+        <skill id="8413" name="EL_PYROTECHNIC" description="Pyrotechnic"/>
+        <skill id="8414" name="EL_HEATER" description="Heater"/>
+        <skill id="8415" name="EL_TROPIC" description="Tropic"/>
+        <skill id="8416" name="EL_AQUAPLAY" description="Aqua Play"/>
+        <skill id="8417" name="EL_COOLER" description="Cooler"/>
+        <skill id="8418" name="EL_CHILLY_AIR" description="Cool Air"/>
+        <skill id="8419" name="EL_GUST" description="Gust"/>
+        <skill id="8420" name="EL_BLAST" description="Blast"/>
+        <skill id="8421" name="EL_WILD_STORM" description="Wild Storm"/>
+        <skill id="8422" name="EL_PETROLOGY" description="Petrology"/>
+        <skill id="8423" name="EL_CURSED_SOIL" description="Cursed Soil"/>
+        <skill id="8424" name="EL_UPHEAVAL" description="Upheaval"/>
+        <skill id="8425" name="EL_FIRE_ARROW" description="Fire Arrow"/>
+        <skill id="8426" name="EL_FIRE_BOMB" description="Fire Bomb"/>
+        <skill id="8427" name="EL_FIRE_BOMB_ATK" description="Fire Bomb Attack"/>
+        <skill id="8428" name="EL_FIRE_WAVE" description="Fire Wave"/>
+        <skill id="8429" name="EL_FIRE_WAVE_ATK" description="Fire Wave Attack"/>
+        <skill id="8430" name="EL_ICE_NEEDLE" description="Ice Needle"/>
+        <skill id="8431" name="EL_WATER_SCREW" description="Water Screw"/>
+        <skill id="8432" name="EL_WATER_SCREW_ATK" description="Water Screw Attack"/>
+        <skill id="8433" name="EL_TIDAL_WEAPON" description="Tidal Weapon"/>
+        <skill id="8434" name="EL_WIND_SLASH" description="Wind Slasher"/>
+        <skill id="8435" name="EL_HURRICANE" description="Hurricane Rage"/>
+        <skill id="8436" name="EL_HURRICANE_ATK" description="Hurricane Rage Attack"/>
+        <skill id="8437" name="EL_TYPOON_MIS" description="Typhoon Missile"/>
+        <skill id="8438" name="EL_TYPOON_MIS_ATK" description="Typhoon Missile Attack"/>
+        <skill id="8439" name="EL_STONE_HAMMER" description="Stone Hammer"/>
+        <skill id="8440" name="EL_ROCK_CRUSHER" description="Rock Launcher"/>
+        <skill id="8441" name="EL_ROCK_CRUSHER_ATK" description="Rock Launcher Attack"/>
+        <skill id="8442" name="EL_STONE_RAIN" description="Stone Rain"/>
+        <skill id="10000" name="GD_APPROVAL" description="Official Guild Approval"/>
+        <skill id="10001" name="GD_KAFRACONTRACT" description="Kafra Contract"/>
+        <skill id="10002" name="GD_GUARDRESEARCH" description="Guardian Research"/>
+        <skill id="10003" name="GD_GUARDUP" description="Strengthen Guardians"/>
+        <skill id="10004" name="GD_EXTENSION" description="Guild Extension"/>
+        <skill id="10005" name="GD_GLORYGUILD" description="Guild's Glory"/>
+        <skill id="10006" name="GD_LEADERSHIP" description="Great Leadership"/>
+        <skill id="10007" name="GD_GLORYWOUNDS" description="Glorious Wounds"/>
+        <skill id="10008" name="GD_SOULCOLD" description="Cold Heart"/>
+        <skill id="10009" name="GD_HAWKEYES" description="Sharp Gaze"/>
+        <skill id="10010" name="GD_BATTLEORDER" description="Battle Orders"/>
+        <skill id="10011" name="GD_REGENERATION" description="Regeneration"/>
+        <skill id="10012" name="GD_RESTORE" description="Restoration"/>
+        <skill id="10013" name="GD_EMERGENCYCALL" description="Urgent Call"/>
+        <skill id="10014" name="GD_DEVELOPMENT" description="Permanent Development"/>
+
+    </set>
+</skills>

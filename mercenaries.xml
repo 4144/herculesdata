@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: 4144
+Copyright (C) 2014 Evol Online -->
+<mercenaries>
+    <mercenary id="1191">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="1506">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="1275">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="1965">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="1966">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="1967">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2000">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2001">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2034">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2037">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2038">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2058">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2059">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2060">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2213">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2214">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2215">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2216">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2217">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2325">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2326">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2342">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2344">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2345">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2346">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2347">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2348">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2349">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2350">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2351">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="2378">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6017">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6018">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6019">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6020">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6021">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6022">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6023">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6024">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6025">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6026">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6027">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6028">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6029">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6030">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6031">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6032">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6033">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6034">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6035">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6036">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6037">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6038">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6039">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6040">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6041">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6042">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6043">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6044">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6045">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+    <mercenary id="6046">
+        <sprite>monsters/croc.xml</sprite>
+    </mercenary>
+
+</mercenaries>
